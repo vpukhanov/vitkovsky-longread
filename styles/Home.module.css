@@ -4,13 +4,13 @@
     180deg,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0) 65%,
-    #cebd91 95%
+    #ddd5b6 95%
   );
 }
 
 .mapContainer {
-  padding-top: 1rem;
-  background-color: #cebd91;
+  padding: 1rem 0;
+  background-color: #ddd5b6;
 }
 
 .innerTextContainer {

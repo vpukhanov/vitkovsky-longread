@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+
+import Map from '../lib/map'
 import { PROJECT_NAME } from '../lib/const'
 import styles from '../styles/Home.module.css'
 
@@ -45,9 +46,7 @@ const Home: NextPage = () => {
       </div>
 
       <div className={styles.mapContainer}>
-        <section className={styles.innerImageContainer}>
-          <Image src='/map.jpg' width={1280} height={852} layout='responsive' />
-        </section>
+        <Map />
       </div>
     </div>
   )

@@ -1,0 +1,18 @@
+.map {
+  max-width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.map img {
+  mix-blend-mode: darken;
+  filter: brightness(1.1);
+}
+
+.markers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

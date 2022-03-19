@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <div className={styles.textContainer}>
         <main className={styles.innerTextContainer}>
-          <h1 className={styles.title}>{PROJECT_NAME}</h1>
+          <h1 className='title'>{PROJECT_NAME}</h1>
           <p>
             Mauris dapibus velit at lobortis consectetur. Ut commodo molestie
             ante blandit ultricies. Suspendisse sed aliquet sapien, non

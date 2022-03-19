@@ -5,6 +5,10 @@ export default function Document() {
     <Html lang='ru'>
       <Head>
         <link rel='icon' href='/favicon.ico' />
+        <link
+          href='https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap'
+          rel='stylesheet'
+        />
       </Head>
       <body>
         <Main />

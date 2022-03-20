@@ -49,6 +49,15 @@ blockquote {
   text-align: center;
 }
 
+blockquote.lit {
+  font-family: 'IBM Plex Serif', serif;
+  font-style: italic;
+}
+
+blockquote.long {
+  text-align: left;
+}
+
 blockquote:before {
   content: '\f10d';
   font-family: FontAwesome;

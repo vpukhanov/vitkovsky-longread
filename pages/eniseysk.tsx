@@ -6,18 +6,15 @@ import HeaderImage from '../lib/header-image'
 import Map from '../lib/map'
 import styles from '../styles/Home.module.css'
 
+import eniseysk from '../lib/resources/eniseysk.png'
+
 const Eniseysk: NextPage = () => {
   return (
     <div>
       <Head>
         <title>г. Енисейск, 1926 &mdash; 1929 г | {PROJECT_NAME}</title>
       </Head>
-      <HeaderImage
-        src='/eniseysk.png'
-        width={825}
-        height={505}
-        alt='Навигационная карта'
-      />
+      <HeaderImage src={eniseysk} alt='Фотография Енисейска' />
       <div className={styles.textContainer}>
         <main className={styles.innerTextContainer}>
           <h1 className='title'>Енисейск</h1>
@@ -36,7 +33,7 @@ const Eniseysk: NextPage = () => {
             А.И. Солженицын в своем произведении «Архипелаг ГУЛАГ» писал, как
             проходили допросы в то время:
           </p>
-          <blockquote>
+          <blockquote className='lit'>
             <p>
               В 1919 главный следовательский прием был: наган на стол. Так шло
               не только политическое, так шло и «бытовое» следствие. &lt;...&gt;
@@ -70,7 +67,7 @@ const Eniseysk: NextPage = () => {
             Енисейск, утратив значение главного города Восточной Сибири,
             становится дальней глубинкой:
           </p>
-          <blockquote>
+          <blockquote className='lit'>
             <p>
               Енисейск тихо доживал свои дни, и только пустовавшие, но еще
               крепкие большие амбары &lt;...&gt; да просторные, иногда по
@@ -93,7 +90,7 @@ const Eniseysk: NextPage = () => {
             июле был отправлен в Енисейск Красноярского края. Работал лаборантом
             на золотом прииске, затем рабочим в лесотехнической экспедиции.
           </p>
-          <blockquote style={{ textAlign: 'left' }}>
+          <blockquote className='lit long'>
             <p>
               Ссыльных в Енисейске и окрестных селах было довольно много,
               вероятно, несколько сот человек: бывшие люди разного рода, бывшие

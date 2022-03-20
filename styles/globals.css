@@ -26,17 +26,18 @@ a {
   box-sizing: border-box;
 }
 
-.title {
+.title,
+.subtitle {
   text-align: center;
-  font-family: 'Lora', serif;
-}
-
-.title:has(+ .subtitle) {
   margin-bottom: 0;
 }
 
+.title {
+  font-family: 'Lora', serif;
+}
+
 .subtitle {
-  text-align: center;
+  font-family: 'Marck Script', cursive;
 }
 
 blockquote {

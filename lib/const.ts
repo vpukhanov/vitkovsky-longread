@@ -6,4 +6,9 @@ export const MARKERS = [
     top: 58,
     left: 50,
   },
+  {
+    location: 'lubyansk',
+    top: 68,
+    left: 33,
+  },
 ]

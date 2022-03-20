@@ -10,7 +10,7 @@ const Eniseysk: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>г. Енисейск, 1929 г | {PROJECT_NAME}</title>
+        <title>г. Енисейск, 1926 &mdash; 1929 г | {PROJECT_NAME}</title>
       </Head>
       <HeaderImage
         src='/eniseysk.png'
@@ -129,7 +129,7 @@ const Eniseysk: NextPage = () => {
         </main>
       </div>
       <div className={styles.mapContainer}>
-        <Map />
+        <Map activeMarkersUpTo={2} />
       </div>
     </div>
   )

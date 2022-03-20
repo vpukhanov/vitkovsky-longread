@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from '../styles/Marker.module.css'
 
 type MarkerProps = {
@@ -9,15 +10,16 @@ type MarkerProps = {
 
 const Marker = ({ location, top, left, active }: MarkerProps) => {
   return (
-    <button
-      className={styles.marker}
-      style={{
-        top: `${top}%`,
-        left: `${left}%`,
-        backgroundColor: active ? 'orange' : 'gray',
-      }}
-      disabled={!active}
-    />
+    <Link href={`/${location}`}>
+      <a
+        className={styles.marker}
+        data-active={active}
+        style={{
+          top: `${top}%`,
+          left: `${left}%`,
+        }}
+      />
+    </Link>
   )
 }
 

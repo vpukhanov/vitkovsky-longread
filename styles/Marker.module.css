@@ -10,4 +10,12 @@
   padding: 0;
 
   transform: translateX(-50%) translateY(-50%);
+
+  pointer-events: none;
+  background-color: gray;
+}
+
+.marker[data-active='true'] {
+  pointer-events: all;
+  background-color: orange;
 }

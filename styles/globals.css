@@ -28,6 +28,14 @@ a {
   box-sizing: border-box;
 }
 
+p {
+  text-indent: 2em;
+}
+
+blockquote:not(.long) p {
+  text-indent: 0;
+}
+
 .title,
 .subtitle {
   text-align: center;

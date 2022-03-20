@@ -3,7 +3,7 @@
   background: linear-gradient(
     180deg,
     var(--bg-transparent) 0%,
-    var(--bg-transparent) 65%,
+    var(--bg-transparent) 80%,
     var(--bg-old) 95%
   );
   text-align: justify;

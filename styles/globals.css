@@ -47,11 +47,12 @@ blockquote {
   padding: 30px;
   position: relative;
   text-align: center;
-}
-
-blockquote.lit {
   font-family: 'IBM Plex Serif', serif;
   font-style: italic;
+}
+
+blockquote footer {
+  text-align: center;
 }
 
 blockquote.long {
@@ -70,6 +71,10 @@ blockquote:before {
   font-size: 20px;
   background: var(--bg-old);
   padding: 0 15px;
+}
+
+.bg-gray blockquote:before {
+  background: var(--bg-gray);
 }
 
 blockquote:after {

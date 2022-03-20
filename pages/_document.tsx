@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <link rel='icon' href='/favicon.ico' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap'
           rel='stylesheet'
         />
         <link
@@ -22,7 +22,7 @@ export default function Document() {
           href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
         />
         <link
-          href='https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap'
+          href='https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;700&display=swap'
           rel='stylesheet'
         />
       </Head>

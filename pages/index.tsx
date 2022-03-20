@@ -86,10 +86,7 @@ const Home: NextPage = () => {
           </p>
         </main>
       </div>
-
-      <div className={styles.mapContainer}>
-        <Map activeMarker='eniseysk' />
-      </div>
+      <Map activeMarker='eniseysk' />
     </div>
   )
 }

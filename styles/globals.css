@@ -11,6 +11,7 @@ body {
   font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--bg-old);
+  font-size: 16px;
 }
 
 html.bg-gray,
@@ -89,7 +90,7 @@ blockquote:after {
 }
 
 blockquote p {
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.05em;
   line-height: 1.4;
 }
@@ -97,4 +98,5 @@ blockquote p {
 blockquote cite {
   font-style: normal;
   font-weight: 300;
+  font-size: 15px;
 }

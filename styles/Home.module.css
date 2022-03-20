@@ -9,11 +9,6 @@
   text-align: justify;
 }
 
-.mapContainer {
-  padding: 1rem 0;
-  background-color: var(--bg-old);
-}
-
 .innerTextContainer {
   max-width: 650px;
   margin: 0 auto;

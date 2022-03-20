@@ -1,11 +1,15 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { useEffect } from 'react'
 
 import Map from '../lib/map'
 import { PROJECT_NAME } from '../lib/const'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    document.documentElement.classList.add('bg-gray')
+  }, [])
   return (
     <div>
       <Head>
@@ -16,31 +20,69 @@ const Home: NextPage = () => {
         <main className={styles.innerTextContainer}>
           <h1 className='title'>{PROJECT_NAME}</h1>
           <p>
-            Mauris dapibus velit at lobortis consectetur. Ut commodo molestie
-            ante blandit ultricies. Suspendisse sed aliquet sapien, non
-            dignissim neque. Donec vehicula euismod cursus. Donec tincidunt
-            purus ut leo scelerisque egestas. Proin tristique nisi ac accumsan
-            pellentesque. Nam condimentum dolor in dictum condimentum. Integer
-            tellus urna, lacinia quis feugiat at, convallis sed enim. Fusce
-            tortor augue, blandit in condimentum quis, bibendum nec lectus.
+            «Вершина гуманизма» - именно так называют русскую литературу
+            исследователи. Она разнообразна по тематике и богата осмыслением
+            философских вопросов, многогранными образами. Одна из самых страшных
+            и трагических тем в русской литературе – это тема лагерей.
           </p>
           <p>
-            Praesent eget lobortis nunc, at dapibus ante. Fusce non varius leo.
-            Curabitur porta vulputate semper. Mauris in ligula sed neque
-            scelerisque venenatis. Aenean scelerisque, mi aliquet commodo
-            ultrices, dolor nibh fermentum nisl, quis imperdiet nisi massa eu
-            est. Nam aliquet placerat turpis vel tincidunt. Integer porta diam
-            vel libero sagittis interdum. Proin molestie odio vitae velit
-            molestie, id varius tortor placerat. Vestibulum consequat fringilla
-            odio. Nunc mollis consectetur diam at porta.
+            О лагерной прозе написано много. Одни исследователи считают её
+            продолжение «каторжной прозы», другие видят в её поэтике глобальную,
+            всечеловеческую тему, третьи оценивают её с точки зрения
+            документалистики. Однако всё сходятся в том, что это уникальное
+            явление мировой литературы.
           </p>
           <p>
-            Vivamus non neque non erat convallis tempor eget eu arcu. Nulla
-            malesuada fermentum eleifend. Phasellus fringilla elementum leo, ut
-            scelerisque arcu egestas sed. Donec sit amet sollicitudin lorem, id
-            aliquet magna. Nunc facilisis mauris ornare maximus venenatis. Donec
-            vitae bibendum leo. Vestibulum placerat lacus in viverra pharetra.
-            Aliquam efficitur ultrices lorem, sed bibendum risus gravida et.
+            Как заметил Ю. Сохряков, эта проза появилась благодаря
+            &quot;напряженному духовному стремлению осмыслить итоги грандиозного
+            по масштабам геноцида, который проводился в стране на протяжении
+            всего двадцатого столетия&quot; Все, что написано о лагерях,
+            тюрьмах, острогах - это своеобразные исторические и человеческие
+            документы, дающие богатую пищу для размышлений о нашем историческом
+            пути, о природе нашего общества, о природе самого человека, которая
+            наиболее выразительно проявляется именно в чрезвычайных
+            обстоятельствах, какими и были для писателей-«лагерников» страшные
+            годы тюрем, острогов, каторги, ГУЛАГа. Отсюда и тот
+            нравственно-философский потенциал, который заключен в книгах бывших
+            узников лагерей - людей, из разных городов, людей разных профессий,
+            людей разных, но объединённых одной болью. А.И. Солженицын, В.Т.
+            Шаламов, Б.Н. Ширяев, И.Л. Солоневич – имена, известные всем. Но
+            были и те, кто незаслуженно забыт. К ним относится и имя Дмитрия
+            Петровича Витковского.
+          </p>
+          <p>Дмитрий Петрович Витковский родился в Риге в 1901 году.</p>
+          <p>
+            В юношестве он учился в кадетском корпусе, но по страстному
+            тяготению к точным наукам стал студентом Высшего технического
+            училища (ныне - МГТУ им. Баумана): слушал лекции по химии у
+            профессора Чичибабина. Обучение было прервано пожаром революции и
+            междоусобной войны, тем не менее тяга к знаниям заставила
+            Витковского отправиться через всю страну в Томск, где в 1918 году
+            еще продолжал работать университет. Когда в 1919 году армия Колчака
+            захватила Томск и провела почти поголовную мобилизацию студентов,
+            восемнадцатилетний Витковский ненадолго оказался в белой армии, но
+            уже через месяц самовольно вернулся в Томск, поступил в школу
+            военных информаторов и с приходом Красной армии продолжил учебу в
+            институте. В 1920 году Витковский вернулся в Москву, восстановился в
+            Училище, а после окончания обучения преподавал химию в Московской
+            артиллерийской школе.
+          </p>
+          <p>
+            Однако события гражданской войны роковым образом сказались на его
+            судьбе. Уже в 1926 году Витковского арестовывают по ложному
+            обвинению в родстве с «генералом Витковским, начальником штаба армии
+            Врангеля».
+          </p>
+          <p>
+            «Я только что окончил институт и мечтал всерьез заняться наукой, как
+            вдруг в результате облыжного доноса попал в тюрьму» (Д.П. Витковский
+            “Полжизни”)
+          </p>
+          <p>
+            Какое-то время Витковского держат в тюрьме на Лубянке, затем
+            переводят в Бутырскую, где изматывают постоянными допросами в
+            попытке выяснить его связи с заграницей и белогвардейцами. 17 мая
+            Витковского приговаривают к трем годам ссылки в Енисейск.
           </p>
         </main>
       </div>

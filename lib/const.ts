@@ -1,9 +1,9 @@
-export const PROJECT_NAME = 'Название проекта'
+export const PROJECT_NAME = 'ПРОЕКТ'
 
 export const MARKERS = [
   {
-    location: 'leningrad',
-    top: 28,
-    left: 17,
+    location: 'eniseysk',
+    top: 58,
+    left: 50,
   },
 ]

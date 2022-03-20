@@ -5,10 +5,10 @@ import { MARKERS } from './const'
 import Marker from './marker'
 
 type MapProps = {
-  activeMarkersUpTo?: number
+  activeMarker: string
 }
 
-const Map = ({ activeMarkersUpTo = 1 }: MapProps) => {
+const Map = ({ activeMarker }: MapProps) => {
   return (
     <section className={styles.map}>
       <Image
@@ -19,10 +19,10 @@ const Map = ({ activeMarkersUpTo = 1 }: MapProps) => {
         alt='Навигационная карта'
       />
       <div className={styles.markers}>
-        {MARKERS.map((marker, idx) => (
+        {MARKERS.map(marker => (
           <Marker
             {...marker}
-            active={idx < activeMarkersUpTo}
+            active={marker.location === activeMarker}
             key={marker.location}
           />
         ))}

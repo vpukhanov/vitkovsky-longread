@@ -2,8 +2,8 @@
   padding: 0 2rem 0.5rem 2rem;
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0) 65%,
+    var(--bg-transparent) 0%,
+    var(--bg-transparent) 65%,
     var(--bg-old) 95%
   );
   text-align: justify;

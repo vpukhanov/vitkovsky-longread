@@ -129,7 +129,7 @@ const Eniseysk: NextPage = () => {
         </main>
       </div>
       <div className={styles.mapContainer}>
-        <Map activeMarkersUpTo={2} />
+        <Map activeMarker='lubyansk' />
       </div>
     </div>
   )
